@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Sedgwick+Ave+Display&family=Tilt+Prism&display=swap" rel="stylesheet">
+        <title>Escalação de time </title>
+    </head>
+    <body>
+        <header class="title">
+            <h1 class="text-title">Escalação de time</h1>
+            <img src="./assets/brasil.png" alt="Bandeira do Brasil" class="img-title">
+        </header>
+        <hr>
+    
+    <section class="adicionandoJogador">
+        <h2>Adicionar Jogador</h2>
+        <label for="position">Posição do jogador</label>
+        <input type="text" name="position" id="position">
+        <label for="name">Nome do jogador</label>
+        <input type="text" name="name" id="nome">
+        <label for="number">Número da camisa</label>
+        <input type="text" name="number" id="numero">
+
+        <button onclick="addPlayer()">Adicionar</button>
+        <hr>
+    </section>
+    <section class="removendoJogador">
+        <h2>Remover Jogador</h2>
+        <label for="removePlayer">Número do jogador</label>
+        <input type="text" name="removePlayer" id="removePlayer">
+        <button onclick="removePlayer()">Remover</button>
+    </section>
+    
+    <div class="listaDoTime">
+        <h2>Escalação do time</h2>
+        <ul id="teamList"></ul>
+        
+    </div>
+    
+    <script src="./index.js"></script>
+</body>
+</html>

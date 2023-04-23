@@ -1,0 +1,29 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+body {
+    background-image: linear-gradient(90deg, rgb(44, 209, 44), rgb(252, 252, 108));
+}
+
+.title {
+    font-family: Tilt Prism;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-title {
+    width: 2.5em;
+    margin-left: 1%;
+}
+h2 {
+    display: flex;
+    justify-content: start;
+    margin-left: 1%;
+}
+.adicionandoJogador {
+    display: flex;
+    flex-direction: column;
+}
