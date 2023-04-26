@@ -2,6 +2,7 @@ function addPlayer(){
     const positionPlayer = document.getElementById('position').value
     const namePlayer = document.getElementById('nome').value
     const numberPlayer = document.getElementById('numero').value
+    const btnAdicionar = document.getElementById('btnAdicionar')
 
     const confirmation = confirm("Escalar \n" + "Nome: "+ namePlayer + "\nPosição: " + positionPlayer + "\nNúmero da camisa: " + numberPlayer )
 
