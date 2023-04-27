@@ -12,6 +12,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 2%;
 }
 
 .img-title {
@@ -31,21 +32,28 @@ h2 {
     padding-top: 2%;
 }
 
-#btnAdicionar {
+#btnAdicionar, #btnRemover {
     margin-top: 5%;
-    border: none;
-
+    border-radius: 6px;
+    cursor: pointer;
 }
 
-#btnRemover {
-    margin-top: 5%;
+#btnAdicionar:hover {
+    background-color: rgb(44, 185, 44);
+    color: rgba(255, 255, 255, 0.952)
+}
+
+#btnRemover:hover {
+    background-color: rgb(236, 52, 52);
+    color:rgba(255, 255, 255, 0.952);
 }
 
 #teamList {
     margin-left: 45%;
     text-decoration: none;
-
+    font-size: 16px;
 }
+
 
 
 
