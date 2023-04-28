@@ -34,18 +34,22 @@ h2 {
 
 #btnAdicionar, #btnRemover {
     margin-top: 5%;
-    border-radius: 6px;
+    border-radius: 6px;    
     cursor: pointer;
+    transition: 0.3s;
+
 }
 
 #btnAdicionar:hover {
     background-color: rgb(44, 185, 44);
-    color: rgba(255, 255, 255, 0.952)
+    color: rgba(255, 255, 255, 0.952);
+    font-size: 15px;
 }
 
 #btnRemover:hover {
     background-color: rgb(236, 52, 52);
     color:rgba(255, 255, 255, 0.952);
+    font-size: 15px;
 }
 
 #teamList {
